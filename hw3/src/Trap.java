@@ -6,7 +6,7 @@ public class Trap extends Enemy {
     private boolean visible;
 
 
-    public Trap(Integer x, Integer y, char tile, String name, Integer attackPoints, Integer defensePoints, Integer healthPool, Integer healthAmount, Integer experience, Integer visibiltyT, Integer invisibiltyT) {
+    public Trap(int x, int y, char tile, String name, Integer attackPoints, Integer defensePoints, Integer healthPool, Integer healthAmount, Integer experience, Integer visibiltyT, Integer invisibiltyT) {
         super(x, y, tile, name, attackPoints, defensePoints, healthPool, healthAmount, experience);
         this.visibiltyTime = visibiltyT;
         this.invisibiltyTime = invisibiltyT;
@@ -14,5 +14,8 @@ public class Trap extends Enemy {
         this.visible = true;
     }
 
-
+    @Override
+    public String toString() {
+        return null;
+    }
 }

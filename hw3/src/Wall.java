@@ -7,7 +7,8 @@ public class Wall extends Tile {
     }
 
     @Override
-    public abstract char toString() {
-        String s = "t;
+    public String toString() {
+        return tile+"";
     }
+
 }

@@ -7,6 +7,5 @@ public abstract class Tile {
         this.pos = new Position(x,y);
     }
 
-    public abstract char toString();
-
+    public abstract String toString();
 }
